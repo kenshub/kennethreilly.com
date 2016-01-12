@@ -1,0 +1,14 @@
+######################################
+# AtomicTech - robot.txt             #
+# For more info, go to:              #
+# http://www.atomictech.com/support/ #
+######################################
+# 
+# This file is used to control search engine robots.
+# The default setting will not disallow any robot.
+# 
+
+User-agent: *
+Disallow: 
+Allow: /
+

@@ -1,7 +1,7 @@
-<html><!-- #BeginTemplate "/Templates/iblue.dwt" -->
+<html><!-- #BeginTemplate "/Templates/iblue.dwt" --><!-- DW6 -->
 <head>
 <!-- #BeginEditable "doctitle" --> 
-<title>Error - 404</title>
+<title>Contact</title>
 <!-- #EndEditable --> 
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 <script language="JavaScript">
@@ -89,6 +89,16 @@ function getLoc(c) {
 }
  </script>
 <link rel="stylesheet" href="/includes/sytles_blue.css" type="text/css">
+
+<!-- start google / urchin tracking -->
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-139711-1";
+urchinTracker();
+</script>
+<!-- end google / urchin tracking -->
+
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('/images/nav/home_01-over.gif','/images/nav/resume_01-over.gif','/images/nav/projects_01-over.gif','/images/nav/links_01-over.gif','/images/nav/contact_01-over.gif','/images/nav/contact_01.gif')">
@@ -133,27 +143,62 @@ function getLoc(c) {
         <img src="/images/pixel.gif" width="150" height="10"> </p>
     </td>
     <td width="90%" valign="top"> <!-- #BeginEditable "title" -->
-      <h1> Error</h1>
+      <h1> Contact</h1>
       <!-- #EndEditable -->
 <p>
 	<!-- #BeginEditable "copy" --> 
-      <H2 align="center"><font face="Arial, Helvetica, sans-serif">File Not Found<br>
-        <font color="#990000">(Error 404)</font></font></H2>
-      <font face="Arial, Helvetica, sans-serif">The page <STRONG> 
-      <!--#echo var="REQUEST_URI" -->
-      </STRONG> was not found when clicking on a link at the page <STRONG> 
-      <!--#echo var="HTTP_REFERER" -->
-      </STRONG> </font> 
-      <p><font face="Arial, Helvetica, sans-serif"> The page may exist but you 
-        have followed a bad link. We are sorry. </font> 
-      <P><font face="Arial, Helvetica, sans-serif"> Please <A HREF="mailto:webmaster@<!--#echo var="SERVER_NAME" -->?subject=page 
-        not found&body=
-        <!--#echo var="HTTP_REFERER" -->
-        has a link to a bad URL 
-        <!--#echo var="REQUEST_URI" -->
-        please tell us where the correct page is and fix the link if possible">click 
-        here to email us this error</A> for a prompt reply about the malformed 
-        link. </font> 
+      <h2>Contact Me</h2>
+      <blockquote> 
+        <p><b>Email:</b> 
+<script>
+up = 'ken';
+dm = 'reillyweb';
+document.write(up+'@'+dm+'.com');
+</script>
+<br>
+          <b>Phone:</b> 651-329-7711<br>
+          <b>Toll Free:</b> 877-435-5416<br>
+          <b>Fax:</b> 877-794-0612</p>
+        <p><b>Mailing Address:</b><br>
+          118 Orange Ave. W.<br>
+          St. Paul, MN 55117</p>
+		<form name="contact_form" method="post" action="contact_confirm.php">
+		<input type="hidden" name="somenotes" value="contact_form_sent_from_mywebsite">
+          <table width="450" border="0" cellspacing="0" cellpadding="0">
+            <tr> 
+              <td colspan="2"><strong>Contact Form:</strong></td>
+            </tr>
+            <tr> 
+              <td width="125">Name:</td>
+              <td width="325"> <input name="name" type="text" id="name" size="25"> 
+              </td>
+            </tr>
+            <tr> 
+              <td width="125">Email Address:</td>
+              <td width="325"><input name="email" type="text" id="email" size="25"></td>
+            </tr>
+            <tr> 
+              <td width="125">Subject:</td>
+              <td width="325"> <select name="subject">
+                  <option selected>General Information</option>
+                  <option>Propane Topic</option>
+                  <option>Web Site</option>
+                  <option>Other</option>
+                </select></td>
+            </tr>
+            <tr> 
+              <td width="125">Message:</td>
+              <td width="325"><textarea name="message" cols="25" rows="4"></textarea></td>
+            </tr>
+            <tr> 
+              <td>&nbsp;</td>
+              <td><input type="submit" name="Submit" value="Send Form &gt;&gt;"></td>
+            </tr>
+          </table>
+		</form>
+        <p><strong> </strong></p>
+        <p>&nbsp;</p>
+      </blockquote>
       <!-- #EndEditable -->
 	</p>
 	</td>
